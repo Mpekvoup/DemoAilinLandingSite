@@ -1,0 +1,6 @@
+{
+  "name": "AylinDent - Стоматология в Алматы",
+  "description": "Круглосуточная стоматологическая клиника AylinDent в Алматы (мкр. Шугыла). Взрослая и детская стоматология, имплантация, хирургия, ортодонтия, ОПТГ. Скидка 10% в честь открытия!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
