@@ -46,7 +46,7 @@ export const ReviewsSection: React.FC<ReviewsSectionProps> = ({ lang }) => {
   }, [filterDoctor, filterLang]);
 
   return (
-    <section id="reviews" className="py-16 sm:py-20 bg-slate-50 border-b border-slate-200/80">
+    <section id="reviews" className="py-16 sm:py-22 bg-slate-50 border-b border-slate-200/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Section Header */}
         <div className="max-w-3xl mb-12 text-left">
@@ -61,8 +61,8 @@ export const ReviewsSection: React.FC<ReviewsSectionProps> = ({ lang }) => {
           </h2>
           <p className="mt-3 text-base text-slate-600">
             {isRu
-              ? 'На основе 69 подтвержденных оценок в 2GIS. Средний балл 5.0 из 5.0 — наши пациенты доверяют нам свои улыбки.'
-              : '2GIS жүйесіндегі 69 расталған бағалау негізінде. Орташа балл 5.0-ден 5.0 — біздің пациенттердің сенімі.'}
+              ? 'На основе 69 подтвержденных оценок в 2GIS. Средний балл 5.0 из 5.0. Наши пациенты доверяют нам свои улыбки.'
+              : '2GIS жүйесіндегі 69 расталған бағалау негізінде. Орташа балл 5.0-ден 5.0. Біздің пациенттердің сенімі.'}
           </p>
         </div>
 

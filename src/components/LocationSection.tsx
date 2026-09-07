@@ -32,7 +32,7 @@ export const LocationSection: React.FC<LocationSectionProps> = ({ lang }) => {
   };
 
   return (
-    <section id="location" className="py-16 sm:py-20 bg-white border-b border-slate-200/80">
+    <section id="location" className="py-14 sm:py-19 bg-white border-b border-slate-200/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Section Header */}
         <div className="max-w-3xl mb-12 text-left">
@@ -47,8 +47,8 @@ export const LocationSection: React.FC<LocationSectionProps> = ({ lang }) => {
           </h2>
           <p className="mt-3 text-base text-slate-600">
             {isRu
-              ? 'мкр. Шугыла, 340/46 к5 — 1 минута от остановки «Грушевая», 9 парковочных мест прямо перед клиникой. Работаем круглосуточно 24/7.'
-              : 'Шұғыла ш/а, 340/46 к5 — «Грушевая» аялдамасынан 1 минут, клиника алдында 9 көлік тұрағы. Тәулік бойы 24/7 ашықпыз.'}
+              ? 'мкр. Шугыла, 340/46 к5. 1 минута от остановки «Грушевая», 9 парковочных мест прямо перед клиникой. Работаем круглосуточно 24/7.'
+              : 'Шұғыла ш/а, 340/46 к5. «Грушевая» аялдамасынан 1 минут, клиника алдында 9 көлік тұрағы. Тәулік бойы 24/7 ашықпыз.'}
           </p>
         </div>
 

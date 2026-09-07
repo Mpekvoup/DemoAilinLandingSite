@@ -201,19 +201,30 @@ export const Footer: React.FC<FooterProps> = ({ lang, onOpenBooking }) => {
         </div>
 
         {/* Bottom copyright and payment methods */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <div>
-            © {new Date().getFullYear()} AylinDent. {isRu ? 'Все права защищены.' : 'Барлық құқықтар қорғалған.'}
+        <div className="pt-8 space-y-3">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+            <div className="text-center sm:text-left">
+              <div>© {new Date().getFullYear()} AylinDent. {isRu ? 'Все права защищены.' : 'Барлық құқықтар қорғалған.'}</div>
+              <div className="text-[11px] text-slate-600 mt-1">
+                {isRu ? 'Работаем с 2023 года' : '2023 жылдан бастап жұмыс істейміз'} • ИП "{isRu ? 'Стоматологическая клиника AylinDent' : 'AylinDent стоматология емханасы'}"
+              </div>
+            </div>
+
+            <div className="flex flex-wrap items-center justify-center gap-4 text-[11px] text-slate-400">
+              <span>Kaspi QR</span>
+              <span>•</span>
+              <span>Kaspi Red</span>
+              <span>•</span>
+              <span>Visa / Mastercard</span>
+              <span>•</span>
+              <span>{isRu ? 'Наличный расчёт' : 'Қолма-қол'}</span>
+            </div>
           </div>
 
-          <div className="flex flex-wrap items-center gap-4 text-[11px] text-slate-400">
-            <span>Kaspi QR</span>
-            <span>•</span>
-            <span>Kaspi Red</span>
-            <span>•</span>
-            <span>Visa / Mastercard</span>
-            <span>•</span>
-            <span>{isRu ? 'Наличный расчёт' : 'Қолма-қол'}</span>
+          <div className="text-[10px] text-slate-600 text-center pt-2 border-t border-slate-800/50">
+            {isRu
+              ? 'Имеются противопоказания. Необходима консультация специалиста.'
+              : 'Қарсы көрсетілімдері бар. Маманмен кеңесу қажет.'}
           </div>
         </div>
       </div>

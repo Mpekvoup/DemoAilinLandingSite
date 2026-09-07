@@ -33,7 +33,7 @@ export const PromoAndAdvantages: React.FC<PromoAndAdvantagesProps> = ({
   };
 
   return (
-    <section className="py-16 sm:py-20 bg-white border-b border-slate-200/80">
+    <section className="py-14 sm:py-18 bg-white border-b border-slate-200/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Top Header */}
         <div className="max-w-3xl mb-12 text-left">

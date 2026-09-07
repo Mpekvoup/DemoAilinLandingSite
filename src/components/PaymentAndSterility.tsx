@@ -29,7 +29,7 @@ export const PaymentAndSterility: React.FC<PaymentAndSterilityProps> = ({
     },
     {
       title: isRu ? 'Рассрочка и Kaspi Red' : 'Бөліп төлеу және Kaspi Red',
-      desc: isRu ? 'Лечите зубы сейчас — платите удобными частями' : 'Тісіңізді қазір емдеп, бөліп төлеңіз',
+      desc: isRu ? 'Лечите зубы сейчас, платите удобными частями' : 'Тісіңізді қазір емдеп, бөліп төлеңіз',
       icon: BadgePercent
     },
     {
@@ -126,8 +126,8 @@ export const PaymentAndSterility: React.FC<PaymentAndSterilityProps> = ({
               </div>
               <h2 className="text-xl sm:text-2xl font-bold text-slate-900 font-['Outfit']">
                 {isRu
-                  ? 'Здоровье и комфорт наших пациентов — главный приоритет'
-                  : 'Пациенттердің денсаулығы мен жайлылығы — біздің басты мақсатымыз'}
+                  ? 'Здоровье и комфорт наших пациентов: главный приоритет'
+                  : 'Пациенттердің денсаулығы мен жайлылығы: біздің басты мақсатымыз'}
               </h2>
             </div>
 

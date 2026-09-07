@@ -72,8 +72,8 @@ export const BookingModal: React.FC<BookingModalProps> = ({
 
     const discountNote = formData.isFirstVisit
       ? isRu
-        ? '🎁 Впервые в клинике (Скидка 10% в честь открытия)'
-        : '🎁 Емханаға алғаш рет (10% ашылу жеңілдігі)'
+        ? 'Впервые в клинике (Скидка 10% в честь открытия)'
+        : 'Емханаға алғаш рет (10% ашылу жеңілдігі)'
       : '';
 
     const textMessage = `Здравствуйте! Запись на прием в AylinDent:
@@ -254,7 +254,7 @@ ${discountNote ? `${discountNote}\n` : ''}${formData.notes ? `💬 Примеч�
                 </option>
                 {DOCTORS.map((d) => (
                   <option key={d.id} value={d.id}>
-                    {isRu ? d.name : d.nameKz} — {d.experience}
+                    {isRu ? d.name : d.nameKz} | {d.experience}
                   </option>
                 ))}
               </select>

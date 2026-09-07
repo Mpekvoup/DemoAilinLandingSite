@@ -69,11 +69,11 @@ export const Hero: React.FC<HeroProps> = ({ lang, onOpenBooking }) => {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900 leading-[1.15] font-['Outfit']">
               {isRu ? (
                 <>
-                  Стоматология <span className="text-teal-700">AylinDent</span> в Алматы — лечение без боли и страха
+                  Стоматология <span className="text-teal-700">AylinDent</span> в Алматы: лечение без боли и страха
                 </>
               ) : (
                 <>
-                  Алматыдағы <span className="text-teal-700">AylinDent</span> стоматологиясы — ауыртпай емдеу
+                  Алматыдағы <span className="text-teal-700">AylinDent</span> стоматологиясы: ауыртпай емдеу
                 </>
               )}
             </h1>
@@ -246,8 +246,8 @@ export const Hero: React.FC<HeroProps> = ({ lang, onOpenBooking }) => {
               {/* Patient quote pill */}
               <div className="p-3 rounded-xl bg-teal-50/70 border border-teal-100 text-xs text-teal-900 italic">
                 {isRu
-                  ? '«Тісім қатты ауырып жылап барғанымда Бекарыс доктор емдеп алды, рахмет көп-көп, қолдарыңыз дерт көрмесін!» — Aiymlms (2GIS)'
-                  : '«Тісім қатты ауырып жылап барғанымда Бекарыс доктор емдеп алды, рахмет көп-көп, қолдарыңыз дерт көрмесін!» — Aiymlms (2GIS)'}
+                  ? '«Тісім қатты ауырып жылап барғанымда Бекарыс доктор емдеп алды, рахмет көп-көп, қолдарыңыз дерт көрмесін!» - Aiymlms (2GIS)'
+                  : '«Тісім қатты ауырып жылап барғанымда Бекарыс доктор емдеп алды, рахмет көп-көп, қолдарыңыз дерт көрмесін!» - Aiymlms (2GIS)'}
               </div>
 
               {/* Clinic Fast Facts Grid */}
